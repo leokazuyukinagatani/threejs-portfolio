@@ -88,7 +88,7 @@ body {
 
   /* clients section */
   .client-container {
-    @apply grid md:grid-cols-2 grid-cols-1 gap-5 mt-12;
+    @apply grid grid-cols-1 gap-5 mt-12;
   }
 
   .client-review {

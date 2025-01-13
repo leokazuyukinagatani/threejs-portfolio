@@ -1,58 +1,51 @@
 export const navLinks = [
   {
     id: 1,
-    name: 'Home',
+    name: 'Inicio',
     href: '#home',
   },
   {
     id: 2,
-    name: 'About',
+    name: 'Sobre',
     href: '#about',
   },
   {
     id: 3,
-    name: 'Work',
+    name: 'Experiência',
     href: '#work',
   },
   {
     id: 4,
-    name: 'Contact',
+    name: 'Contato',
     href: '#contact',
   },
 ];
 
 export const clientReviews = [
+
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Jeferson Fernandes',
+    position: 'FullStack Developer at Maxicon Systems',
+    img: 'https://media.licdn.com/dms/image/v2/D4D03AQFsvyWIAe2-tw/profile-displayphoto-shrink_800_800/B4DZQ2jGq9HcAc-/0/1736081960141?e=1742428800&v=beta&t=2NzMmeilL7nQ6EmmpawROAbKfXX5w0CvY5kVKafmktM',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Recomendo o Leo como um desenvolvedor competente com quem trabalhei desde o programa de trainee e, posteriormente, na mesma squad após a efetivação. Suas habilidades em diversas tecnologias, como Angular, React, Java e React Native, são notáveis e trazem bons resultados para a equipe. Além disso, sua disposição em ajudar os colegas e compartilhar conhecimentos contribui para um ambiente de trabalho colaborativo e produtivo.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'Mewerton Melo',
+    position: 'IA Developer at Controladoria Geral',
+    img: 'https://media.licdn.com/dms/image/v2/D4D03AQGfyisYYxVAMg/profile-displayphoto-shrink_800_800/B4DZPGQN8mHUAg-/0/1734197961230?e=1742428800&v=beta&t=iFlF_VljNlDzuBBTLpaXvvq6jlE56u919Zzsp4DXcS8',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Leo Kazuyuki é um excelente Desenvolvedor web, sempre em busca de novos conhecimentos e sempre disponível para ajudar os companheiros, me ajudou bastante em uma aplicação na qual usamos as tecnologias React JS no Front-end e Node JS no Back-end, e pode acreditar que não tinha um problema que ele não resolvesse, sempre muito competente e empenhado na solução dos problemas. Não teria como não recomendar, qualquer empresa que tenha um profissional desse nível tem muita sorte. Sucesso Leo! Qualquer dia que eu tiver um problema grande volto a te abusar! kkk E claro! Precisando de mim é só chamar!',
   },
-  {
+    {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    name: 'Edineia S. B. Brum',
+    position: 'System Developer, Analyst & PO Assistant (one product) at Maxicon Systems',
+    img: 'https://media.licdn.com/dms/image/v2/D4D03AQGpW0evwKGo6w/profile-displayphoto-shrink_800_800/B4DZQXh7cRG0Ac-/0/1735561558172?e=1742428800&v=beta&t=0b4ZkRahsQA91i4Q0_IghLcQI2OheMIWT8fIHXBJ2b4',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'O Léo é aquele desenvolvedor atento à performance a às boas práticas no código ao mesmo tempo. Além de estar sempre estudando, se desenvolvendo na parte mais técnica, também chega junto pra compreender melhor a regra de negócio antes de codar (o que é um diferencial valioso hoje em dia). Posso dizer que suas "histórias de pescador" ficam só pra pescaria mesmo, porque no nosso dia a dia de trabalho ele entregava MUITO! Ele é rápido e está sempre disposto a ajudar nos enroscos que surgem naquelas demandas mais complexas. Proatividade, assiduidade, espírito de equipe, senso de urgência... são algumas das qualidades que daria pra citar sobre ele. Vou sentir falta de ouvir seus "tá" nas calls de alinhamento que fazíamos (cada "tá" com uma tonalidade bem característica... hehe...). Um ponto que também preciso citar é a qualidade nas análises e documentações, principalmente as RCUs, excelentes, de verdade!',
   },
 ];
 
@@ -260,29 +253,39 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'Maxicon Sistemas',
+    pos: 'Software Developer - Squad Dunamis',
+    duration: 'Dezembro de 2024 - Present',
+    title: 'Atualmente, trabalho no desenvolvimento de uma aplicação robusta que integra APIs REST em .NET e Java, frontend em Angular e banco de dados em Postgres. O projeto também envolve processos de sincronização para garantir a consistência dos dados entre sistemas, proporcionando uma solução escalável e eficiente.',
+    icon: '/assets/maxicon.png',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'Maxicon Sistemas',
+    pos: 'Software Developer - Squad Mobile',
+    duration: 'Outubro de 2023 - Dezembro de 2024 (1 ano 3 meses)',
+    title: 'Durante o período, participei de três projetos, sendo que um deles foi desenvolvido integralmente, desde o levantamento de requisitos até a entrega final. Trabalhei no desenvolvimento de aplicativos web utilizando Angular e React, criei APIs em Java (JAX-RS e Spring Boot) e atuei no desenvolvimento de aplicativos móveis com React Native. Também gerenciei bancos de dados em Postgres e Oracle, desempenhando atividades de levantamento de requisitos e implementando estratégias de sincronização entre bancos de dados.',
+    icon: '/assets/maxicon.png',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Biopark',
+    pos: 'Software Developer Trainee - Squad Biopark',
+    duration: 'Abril de 2023 - Outubro de 2023 (7 meses)',
+    title: 'Durante o período, participei de um projeto em parceria com o Biopark, no qual desenvolvi um portal web e um aplicativo voltados para o agronegócio. Este projeto resultou em um produto que integra um aplicativo e um portal como parte de um módulo de ERP, oferecendo soluções específicas para atender às necessidades do setor. Nele foi utilizado Java, JAX-RS, React Native, WatermelonDB, Postgres, Oracle, GitLab, Hibernate, StyledComponents. Metodologia ágil utilizada: Scrum (JIRA).',
+    icon: '/assets/biopark.ico',
     animation: 'salute',
   },
+  {
+    id: 4,
+    name: 'Kebook',
+    pos: 'Software Developer',
+    duration: 'Janeiro de 2023 - Abril de 2023 (4 meses)',
+    title: 'Trabalhei como desenvolvedor web, adquirindo habilidades técnicas em HTML, CSS, JavaScript, PHP, CPanel, Email Marketing, criação de Landingpages, Suporte Técnico, Configuração de Domínios, SEO, LinkTree e Git. Estas habilidades me permitiram criar sites de alta qualidade, otimizados para SEO, além de desenvolver landing pages para gerar leads e aumentar a visibilidade de sites.',
+    icon: '/assets/kebook.png',
+    animation: 'clapping',
+  },
 ];
+
