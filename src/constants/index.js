@@ -267,7 +267,7 @@ export const workExperiences = [
     duration: 'Outubro de 2023 - Dezembro de 2024 (1 ano 3 meses)',
     title: 'Durante o período, participei de três projetos, sendo que um deles foi desenvolvido integralmente, desde o levantamento de requisitos até a entrega final. Trabalhei no desenvolvimento de aplicativos web utilizando Angular e React, criei APIs em Java (JAX-RS e Spring Boot) e atuei no desenvolvimento de aplicativos móveis com React Native. Também gerenciei bancos de dados em Postgres e Oracle, desempenhando atividades de levantamento de requisitos e implementando estratégias de sincronização entre bancos de dados.',
     icon: '/assets/maxicon.png',
-    animation: 'clapping',
+    animation: 'victory',
   },
   {
     id: 3,
