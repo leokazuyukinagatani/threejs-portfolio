@@ -14,11 +14,11 @@ export const navLinks = [
     name: 'Experiência',
     href: '#work',
   },
-  {
-    id: 4,
-    name: 'Contato',
-    href: '#contact',
-  },
+  // {
+  //   id: 4,
+  //   name: 'Contato',
+  //   href: '#contact',
+  // },
 ];
 
 export const clientReviews = [
@@ -54,7 +54,7 @@ export const myProjects = [
     title: 'Zigen',
     desc: 'Landing page de aplicativo de musíca',
     subdesc:
-      'Contruindo uma página de vendas com HTML e CSS, para divulgar Zigen um aplicativo perfeito para aprender a cantar',
+      'Contruindo uma página de vendas com HTML e CSS, para divulgar Zigen um aplicativo perfeito para aprender a cantar, desenvolvido durante o curso Fullstack da Rocketseat. Com este projeto foi possivel aprender os fundamentos do desenvolvimento Web, utilizando as bases HTML e CSS somente.',
     href: 'https://leokazuyukinagatani.github.io/zingen',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
